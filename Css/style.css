@@ -1,0 +1,296 @@
+/*----------------------------------------
+  01.  Genral default CSS
+----------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent;
+}
+
+/************************
+    - 2. Navigation -
+************************/
+.navbar .navbar-nav>li>a {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #f25454;
+}
+
+.act {
+  color: #f25454;
+}
+
+.social-links a i {
+  color: #fff;
+}
+
+.social-links a i:hover {
+  color: #f25454;
+}
+
+/************************
+      - 3. carousel -
+  ************************/
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+}
+.carousel-caption p {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1;
+}
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 80vh;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+.carousel-caption .button .btn-primary {
+  position: relative;
+  background-color: #f1c40f;
+  border: none;
+  bottom: 40px;
+}
+.b-carsoul {
+  border: 2px solid red;
+  width: 20px;
+}
+.carousel-control-prev {
+  position: relative;
+}
+.fa-angle-left {
+  font-size: 20px;
+  position: absolute;
+  right: 80px;
+  bottom: 360px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.fa-angle-left:hover {
+  background-color: #fff;
+  color: #000;
+}
+.carousel-control-next {
+  position: relative;
+}
+.fa-chevron-right {
+  font-size: 20px;
+  position: absolute;
+  right: 80px;
+  bottom: 300px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.fa-chevron-right:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*----------------------------------
+   02. Navbar-area css hear
+------------------------------------*/
+.first-nav {
+  background-color: #f1c40f;
+}
+
+.navbar {
+  background-color: #2c3436;
+
+}
+
+.construct {
+  color: #f1c40f;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.navbar a:visited {
+  color: #f5f5f5;
+}
+
+/*----------------------------------
+   03. Header-area css hear
+------------------------------------*/
+header {
+  background-image: url(../imges/1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 80vh;
+}
+
+.header-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.header-content h4 {
+  position: relative;
+  top: 25%;
+}
+
+.header-content h1 {
+  font-size: 40px;
+  position: relative;
+  top: 25%;
+}
+
+.header-content p {
+  font-size: 45px;
+  font-weight: 500;
+  color: #f1c40f;
+  position: relative;
+  top: 25%;
+}
+
+.header-content span {
+  font-size: 20px;
+  position: relative;
+  top: 25%;
+}
+
+.button {
+  position: relative;
+  top: 35%;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+
+}
+.navbar-toggler:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/*----------------------------------
+   04. ِAbout-area css hear
+------------------------------------*/
+}
+
+.button .btn-primary {
+  background-color: #f1c40f;
+  border: none;
+
+  color: #fff;
+}
+
+.about .btn-primary {
+  background-color: #f1c40f;
+  border: none;
+}
+
+.icons {
+  background-color: #f5f5f5;
+}
+
+.ico-2 i {
+  border: 7px solid #feae19;
+  outline: 6px solid #feae19;
+  box-shadow: 7px 7px 20px #f1c40f;
+
+  width: 75px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*----------------------------------
+   04. Services-area css hear
+------------------------------------*/
+.bt-footer {
+  background-color: #f1c40f;
+  border: none;
+}
+
+.qes {
+  background-color: #f1c40f;
+}
+
+/************************
+  - 5. Footer -
+************************/
+footer {
+  background-image: url(../imges/6.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: auto;
+}
+
+.footer-content {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.textwidget a {
+  color: white;
+}
+
+.construct span {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.icons-1 i {
+  font-size: 17px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #f1c40f;
+  border-radius: 50%;
+  width: 30px;
+  text-align: center;
+}
+
+.textwidget ul li {
+  list-style-type: disc;
+}
+
+.textwidget a {
+  font-size: 17px;
+}
+
+.textwidget a i {
+  font-size: 20px;
+  padding-right: 5px;
+}
